@@ -35,34 +35,64 @@
               <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
             </div>
             <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                <li><a>Home</a></li>
-                <li><a>About</a></li>
-                <li><a>Pages</a></li>
-                <li><a>Blog</a></li>
-                <li><a>Contact</a></li>
+                <li class="hover:text-[#FF4240]"><a>Home</a></li>
+                <li class="hover:text-[#FF4240]"><a>About</a></li>
+                <li class="hover:text-[#FF4240]"><a>Pages</a></li>
+                <li class="hover:text-[#FF4240]"><a>Blog</a></li>
+                <li class="hover:text-[#FF4240]"><a>Contact</a></li>
             </ul>
           </div>
           <a class="btn btn-ghost text-xl lg:text-3xl font-bold">Hockey's Mastery</a>
         </div>
         <div class="navbar-start  hidden lg:flex">
-          <ul class="menu menu-horizontal mx-auto px-1 font-semibold text-[#424247]">
-            <li><a>Home</a></li>
-            <li><a>About</a></li>
-            <li><a>Pages</a></li>
-            <li><a>Blog</a></li>
-            <li><a>Contact</a></li>
+          <ul class="menu menu-horizontal mx-auto px-1 font-semibold text-[#424247] w-full">
+            <li class="hover:text-[#FF4240]"><a>Home</a></li>
+            <li class="hover:text-[#FF4240]"><a>About</a></li>
+            <li class="hover:text-[#FF4240]"><a>Pages</a></li>
+            <li class="hover:text-[#FF4240]"><a>Blog</a></li>
+            <li class="hover:text-[#FF4240]"><a>Contact</a></li>
             
           </ul>
         </div>
         <div class="navbar-end">
-            <i class="fa-solid fa-magnifying-glass text-[#424247] hidden lg:block mr-5"></i>
+            <i class="fa-solid fa-magnifying-glass text-[#89898B] hidden lg:block mr-5"></i>
           <a class="btn bg-[#FF4240] text-white">Get Ticket</a>
         </div>
       </div>
     <!-- navbar end -->
+    <!-- banner - start-->
+    <section class="relative px-3">
+
+      <div class="carousel w-full my-6 lg:my-10">
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src="./Images/1.png" class="w-full" />
+          <div class="absolute flex justify-between transform  lg:left-8  lg:bottom-8 bottom-3 left-[38%] gap-4">
+            <a href="#slide2" class="btn btn-circle text-sm bg-black text-white border-0">❮</a> 
+            <a href="#slide2" class="btn btn-circle text-sm bg-black text-white border-0">❯</a>
+          </div>
+        </div> 
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="./Images/4.png" class="w-full" />
+          <div class="absolute flex justify-between transform  lg:left-8  lg:bottom-8 bottom-3 left-[38%] gap-4">
+            <a href="#slide1" class="btn btn-circle text-sm bg-black text-white border-0">❮</a> 
+            <a href="#slide1" class="btn btn-circle text-sm bg-black text-white border-0">❯</a>
+          </div>
+        </div> 
+        
+      </div>
+      <div class="lg:w-1/2 p-8 bg-[#131318] lg:absolute rounded-2xl bottom-20 right-11">
+        <h1 class="text-white font-extrabold text-xl lg:text-2xl mb-4">Meet all the heroes from the field</h1>
+        <p class="text-[#FFFFFF99]/[.6]">
+          Discover greatness at Hockey's Mastery! Elevate your game with pro training and gear. Meet on-field heroes, start your journey to hockey mastery now!
+        </p>
+      </div>
+    </section>
+    <!-- banner - end-->
 </header>
 <!-- main -->
+<main>
 
+</main>
 <!-- footer -->
 </body>
 
